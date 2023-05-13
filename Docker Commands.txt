@@ -1,0 +1,7 @@
+Source: https://docs.agpt.co/setup
+
+1. Build the image. If you have pulled the image from Docker Hub, skip this step.
+docker-compose build auto-gpt
+
+2. Run Auto-GPT
+docker-compose run --rm auto-gpt
